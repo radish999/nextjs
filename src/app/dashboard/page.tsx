@@ -1,3 +1,8 @@
-export default function dashboard() {
-  return <h1>Hello, dashboard!</h1>;
+'use client'
+import { useRouter } from 'next/navigation';
+
+export default function Dashboard() {
+  const router = useRouter();
+
+  return <h1 onClick={() => router.push('/')}>GoBack Home!</h1>;
 }

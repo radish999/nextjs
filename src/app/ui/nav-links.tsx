@@ -7,7 +7,7 @@ export function NavLinks(){
   return (
     <nav>
       <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/dashboard">
-        home
+        dashboard
       </Link>
       <br />
       <Link
