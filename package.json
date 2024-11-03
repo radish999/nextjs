@@ -12,8 +12,6 @@
     "deploy": "pnpm pages:build && wrangler pages deploy"
   },
   "dependencies": {
-    "apollo-boost": "^0.4.9",
-    "aws-amplify": "^6.8.0",
     "aws-appsync-react": "^4.0.16",
     "next": "15.0.1",
     "react": "19.0.0-rc-69d4b800-20241021",
